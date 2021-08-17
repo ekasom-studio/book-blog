@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Site</title>
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="bootstrap-5.0.1-dist/js/bootstrap.bundle.js" defer></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="top_header">
+
+            <form action="">
+                <p>Вход / регистрация</p>
+                <input type="text" placeholder="E-mail или никнейм">
+                <button class="conti_nious">Продолжить</button>
+                <div class="link_wrapper">
+                    <a href="#" class="social_link vk_img"></a>
+                    <a href="#" class="social_link fb_img"></a>
+                    <a href="#" class="social_link goo_img"></a>
+                    <a href="#" class="social_link ok_img"></a>
+                    <a href="#" class="social_link lr_img"></a>
+                    <a href="#" class="social_link tw_img"></a>
+                </div>
+            </form>
+
+        </div>
+        <div class="bottom_header">
+            <div class="main-wrapper">
+                <!-- <a class="main" href="">Меню</a> -->
+                <div class="dropdown menu-button">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Меню
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Новинки</a></li>
+                        <li><a class="dropdown-item" href="#">Рекомендации</a></li>
+                        <li><a class="dropdown-item" href="#">Рейтинги</a></li>
+                    </ul>
+                </div>
+                <a class="main" href="">Главная</a>
+                <a class="main" href="">Что почитать</a>
+                <a class="main" href="">Лента</a>
+                <a class="main" href="">Жанры</a>
+                <a class="main" href="">Авторы</a>
+            </div>
+            <a class="main-logo" href=""><img src="img/logo_ll.svg" alt="live_lib"></a>
+            <input class="found" type="text" placeholder="Поиск книг">
+            <div class="user-logo">
+                <img class="user-logo__img" src="img/userpic.svg" alt="">
+                <span class="bell" >🔔</span> 
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content_prev">
+            <div class="content_logo_wrapper">
+                <p class="content_logo">
+                    <span class="content_logo_head">Книжный</span>
+                    <span class="content_logo_footer">
+                        Вызов
+                        <svg width="100" height="38" viewBox="0 0 100 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-logo">
+                            <path d="M8.00543 19.4419C8.00543 10.6918 3.25544 4.94189 3.25544 4.94189C3.25544 4.94189 2.857 4.94188 2.02106 4.94189C-0.666435 4.94194 -0.666435 0.941895 2.02106 0.941895H80.5055C90.7227 0.941895 99.0055 9.22463 99.0055 19.4419C99.0055 29.6592 90.7227 37.9419 80.5055 37.9419H2.01321C-0.666508 37.9419 -0.674286 33.9458 2.00932 33.9458C2.37261 33.9458 3.25544 33.9458 3.25544 33.9458C3.25544 33.9458 8.00543 27.9263 8.00543 19.4419Z" fill="#F8DB73"></path>
+                            <text x="14" y="31" class="kv-slogn__year">2021</text>
+                        </svg>
+
+                    </span>
+                    
+                </p>
+
+            </div>
+            <img class="circle" src="img/Слой 1.png" alt="">
+            <div class="content_links_list">
+                <a class="circle_wrapper_link" href="#">
+                    <span class="setting_link"></span>
+                </a>
+                <a class="circle_wrapper_link" href="#">
+                    <span class="help_link"></span>
+                </a>
+                <a class="circle_wrapper_link" href="#">
+                    <span class="shared_link"></span>
+                </a>
+            </div>
+        </div>
+        <div class="my_targets">
+            <h1 >Поставьте себе цель, чтобы
+                <span class="yellow_color">больше читать</span>
+            </h1>
+            <p class="triangle_arrow"></p>
+            <form  class="challenge_form" action="">
+                <div class="form_heading">
+                    <label for="quantity">Я прочитаю</label>
+                    <input type="number" class="quantity_books" id="quantity">
+                    <label for="quantity">книг в 2021</label>
+                </div>
+                <div class="form_center">
+                    <input type="text" placeholder="Мой девиз: прочитаю в два раза больше, чем обычно!">
+                </div>
+                <button class="form_button">Принять вызов</button>
+            </form>
+        </div>
+        <div class="widget">
+            <h2>Наш виджет поможет достичь цели</h2>
+            <div class="widget_description">
+                <div class="widget_description_wrapper">
+                    <p>Составит удобный
+                        <span class="yellow_text">график чтения</span>
+                    </p>
+                    <p>Подскажет, когда
+                        <span class="red_text">стоит поднажать</span>
+                    </p>
+                    <p>Даст книжные
+                        <span class="white_text">рекомендации</span>
+                    </p>
+                </div>
+                <div class="widget_description_img">
+                    <img class="widget_logo" src="img/1625824512866new.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="statistic">
+            <h2>Книжный вызов на Лайвлиб уже приняли</h2>
+            <div class="statistic-cards">
+                <div class="statistic-cards-1">
+
+                    <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M44.2105 28.8947C44.2105 34.6184 39.5131 39.3158 33.7895 39.3158C28.0658 39.3158 23.3684 34.6184 23.3684 28.8947C23.3684 23.1711 28.0658 18.4737 33.7895 18.4737C39.5131 18.4737 44.2105 23.1711 44.2105 28.8947ZM9.47368 72.3158C9.47368 65.9953 12.9194 61.3204 17.8878 58.0718C22.9364 54.7708 29.2162 53.2105 33.7895 53.2105C38.3628 53.2105 44.6425 54.7708 49.6911 58.0718C54.6595 61.3204 58.1053 65.9953 58.1053 72.3158V74.0526C58.1053 75.93 56.4754 77.5263 54.6316 77.5263H12.9474C11.0757 77.5263 9.47368 75.9291 9.47368 74.0526V72.3158ZM33.7895 42.7895C41.4316 42.7895 47.6842 36.5368 47.6842 28.8947C47.6842 21.2526 41.4316 15 33.7895 15C26.1474 15 19.8947 21.2526 19.8947 28.8947C19.8947 36.5368 26.1474 42.7895 33.7895 42.7895ZM33.7895 49.7368C23.3684 49.7368 6 56.6842 6 72.3158V74.0526C6 77.852 9.1616 81 12.9474 81H54.6316C58.3631 81 61.5789 77.8791 61.5789 74.0526V72.3158C61.5789 56.6842 44.2105 49.7368 33.7895 49.7368ZM68.5266 42.4239C72.3979 42.4239 75.4739 39.3142 75.4739 35.6594C75.4739 32.0045 72.3979 28.8948 68.5266 28.8948C64.6552 28.8948 61.5792 32.0045 61.5792 35.6594C61.5792 39.3142 64.6552 42.4239 68.5266 42.4239ZM57.052 57.9386C56.6676 58.1856 56.2976 58.4429 55.9433 58.711C55.1226 57.8702 54.2359 57.0913 53.2994 56.3731C57.7751 52.7203 64.0178 51.0167 68.5266 51.0167C76.3424 51.0167 89.3687 56.1358 89.3687 67.6538V68.9336C89.3687 71.7531 86.9568 74.0527 84.1581 74.0527H61.5793V74.0526V72.3158C61.5793 71.7245 61.5545 71.1456 61.5061 70.579H84.1581C85.1276 70.579 85.895 69.7465 85.895 68.9336V67.6538C85.895 63.4193 83.5667 60.2291 80.0011 57.9386C76.3613 55.6005 71.81 54.4904 68.5266 54.4904C65.2431 54.4904 60.6918 55.6005 57.052 57.9386ZM78.9476 35.6594C78.9476 41.2904 74.2581 45.8976 68.5266 45.8976C62.795 45.8976 58.1055 41.2904 58.1055 35.6594C58.1055 30.0283 62.795 25.4211 68.5266 25.4211C74.2581 25.4211 78.9476 30.0283 78.9476 35.6594Z" fill="#F8DB73"></path>
+                    </svg>
+
+                    <p class="cards-1-members">508957</p>
+                    <p class="card-1-description">участников</p>
+                </div>
+                <div class="statistic-cards-1">
+
+                    <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M78 31.3333V21.3332C78 20.6494 77.9119 19.9972 77.745 19.3871C76.9773 16.5816 74.5418 14.6666 71.3333 14.6666H44.6667L44.6314 14.6666H38C34.1458 14.6666 31.3333 17.5312 31.3333 21.3333H21.3333H14.6667C10.8125 21.3333 8 24.1979 8 28V74.6666C7.99999 78.4166 10.8646 81.3333 14.6667 81.3333H21.3333H38H48H51.3333H61.3333H68H71.3333H81.3333C81.5775 81.3333 81.8171 81.3218 82.0519 81.2992C85.5738 80.9609 88 78.1456 88 74.6666V38C88 34.1719 85.2396 31.3333 81.3333 31.3333H78ZM71 78H81.3333C83 78 84.6667 76.3333 84.6667 74.6666V38C84.6667 36.5416 83.3906 35.0833 81.9551 34.7415C81.75 34.6927 81.5417 34.6666 81.3333 34.6666H68C66.3333 34.6666 64.6667 36.3333 64.6667 38V74.6666C64.6667 76.3266 66.32 77.9866 67.98 77.9999H71V78ZM62.1819 77.9999C61.6385 77.0259 61.3333 75.8907 61.3333 74.6666V38C61.3333 36.7687 61.6283 35.6358 62.158 34.6666H61.3333C59.6667 34.6666 58 36.3333 58 38V74.6666C58 76.3266 59.6533 77.9866 61.3133 77.9999H62.1819ZM55.5152 77.9999C54.9719 77.0259 54.6667 75.8907 54.6667 74.6666V38C54.6667 34.1979 57.4792 31.3333 61.3333 31.3333H68H74.6667V21.3333V21.3332C74.6667 21.1249 74.6406 20.9166 74.5918 20.7115C74.25 19.276 72.7916 18 71.3333 18H44.6466C42.9867 18.0132 41.3333 19.6732 41.3333 21.3332V74.6666C41.3333 76.3332 43 77.9999 44.6667 77.9999H55.5152ZM31.3333 74.6666C31.3333 75.8907 31.6385 77.026 32.1819 78H21.3333C19.6667 78 18 76.3333 18 74.6666V28C18 26.3333 19.6667 24.6666 21.3333 24.6666H31.3333V74.6666ZM38 18H38.8246C38.2949 18.9691 38 20.102 38 21.3332V74.6666C38 75.8907 38.3052 77.0259 38.8486 78H38C36.3333 78 34.6667 76.3333 34.6667 74.6666V21.3333C34.6667 19.6666 36.3333 18 38 18ZM14.6667 28C14.6667 26.7687 14.9616 25.6358 15.4914 24.6666H14.6667C13 24.6666 11.3333 26.3333 11.3333 28V74.6666C11.3333 76.3333 13 78 14.6667 78H15.5153C14.9719 77.026 14.6667 75.8907 14.6667 74.6666V28Z" fill="#F8DB73"></path>
+                    </svg>
+
+                    <p class="cards-1-members">21071677 </p>
+                    <p class="card-1-description">книг заявлено</p>
+                    
+                </div>
+                <div class="statistic-cards-1">
+
+                    <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M35.4706 81H27.5882C23.8309 81 21 78.1177 21 74.4118V21.7059C21 17.9486 23.7794 15.1177 27.5882 15.1177H35.4706H68.4118C72.2721 15.1177 75 17.9228 75 21.7059L75 74.4118C75 75.6159 74.7059 76.7396 74.1742 77.7059C73.0865 79.6824 71.0045 81 68.4118 81H35.4706ZM68.4241 77.7059C70.067 77.6977 71.7059 76.0548 71.7059 74.4118L71.7059 21.7059C71.7059 20.0588 70.0588 18.4118 68.4118 18.4118H35.4706C33.8235 18.4118 32.1765 20.0589 32.1765 21.7059V74.4118C32.1765 76.0589 33.8235 77.7059 35.4706 77.7059H68.4118L68.4241 77.7059ZM27.5882 77.7059H29.721C29.184 76.7434 28.8823 75.6214 28.8824 74.4118V21.7059C28.8824 20.4892 29.1738 19.3696 29.6973 18.4118H27.5882C25.9412 18.4118 24.2941 20.0589 24.2941 21.7059V74.4118C24.2941 76.0589 25.9412 77.7059 27.5882 77.7059ZM38.7647 36.5294C38.7647 35.6198 39.5021 34.8824 40.4118 34.8824H63.4706C64.3802 34.8824 65.1176 35.6198 65.1176 36.5294C65.1176 37.4391 64.3802 38.1765 63.4706 38.1765H40.4118C39.5021 38.1765 38.7647 37.4391 38.7647 36.5294ZM43.7059 44.7647C42.7962 44.7647 42.0588 45.5021 42.0588 46.4118C42.0588 47.3214 42.7962 48.0589 43.7059 48.0589H60.1765C61.0861 48.0589 61.8235 47.3214 61.8235 46.4118C61.8235 45.5021 61.0861 44.7647 60.1765 44.7647H43.7059Z" fill="#F8DB73"></path>
+                    </svg>
+
+                    <p class="cards-1-members">41</p>
+                    <p class="card-1-description">книга в среднем в КВ</p>
+                </div>
+            </div>
+        </div>
+        <div class="challenge">
+            <h2>Примите вызов и докажите, что вы все сможете</h2>
+            <button class="challenge_button">Принять вызов</button>
+        </div>
+    </div>
+    <div class="ending">
+        <div class="end">
+            <div class="footer_livelib">
+                <ul>
+                    <li><h3>Лайвлиб</h3></li>
+                    <li>О проекте</li>
+                    <li>Команда</li>
+                    <li>Контакты</li>
+                    <br>
+                </ul>
+                <div>
+                    <p class="information">© Лайвлиб 2006-2021</p>
+                
+                    <img src="img/logo_ll_grey.svg" alt="">
+                </div>
+            </div>
+            <div class="footer_chapter">
+                <ul>
+                    <li><h3>Разделы</h3></li>
+                    <li>Что почитать</li>
+                    <li>Лучшие книги</li>
+                    <li>Популярные книги</li>
+                    <br>
+                </ul>
+                <div>
+                    <p class="information">Сейчас на сайте 1709</p>
+                
+                    <img src="img/logo.gif" alt="">
+                </div>
+            </div>
+            <div class="marketing">
+                <ul>
+                    <li><h3>Сотрудничество</h3></li>
+                    <li>Реклама</li>
+                    <li>Услуги</li>
+                    <li>Партнеры</li>
+                    <br>
+                </ul>
+                <div >
+                    <p class="information">Скачать приложение</p>
+                    <a class="icon" href="#">
+                        <span class="appstore"></span>
+                    </a>
+                    <a class="icon " href="#">
+                        <span class="playmarket"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="support">
+                <ul>
+                    <li><h3>Поддержка</h3></li>
+                    <li>Часто задаваемые вопросы</li>
+                    <li>Предложить новую фунцию</li>
+                    <li>Предложить улучшение</li>
+                    <li class="information">Если вы заметили ошибку в тексте, 
+                        <span class="information_correct">выделите ее и нажмите Ctrl-Enter.</span>
+                    </li>
+                    <br>
+                    
+                </ul>
+                <div>
+                    <p class="information">Мы в соцсетях</p>
+                    <a class="icon" href="#">
+                        <span class="instagram"></span>
+                    </a>
+                    <a class="icon" href="#">
+                        <span class="vk"></span>
+                    </a>
+                    <a class="icon" href="#">
+                        <span class="facebook"></span>
+                    </a>
+                    <a class="icon" href="#">
+                        <span class="yandex"></span>
+                    </a>
+                </div>
+                <p class="age">16+</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
